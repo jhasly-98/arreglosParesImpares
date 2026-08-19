@@ -16,4 +16,12 @@ public class utilidades {
             System.out.println("El valor "+(i+1)+"es: "+num[i]);
         }
     }
+    //Arreglos pares e impares 
+    public void pares (int [] par, int cont, int valor){
+        par [cont] = valor;
+    }
+    
+    public void impares (int [] par, int cont, int valor){
+        par [cont] = valor;
+    }
 }
