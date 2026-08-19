@@ -24,4 +24,23 @@ public class utilidades {
     public void impares (int [] par, int cont, int valor){
         par [cont] = valor;
     }
+    public int contarMayDiez(int [] mayDiez){
+        int cont=0;
+        for (int i = 0; i < mayDiez.length; i++) {
+            if (mayDiez[i]>=10) {
+                cont++;
+            }
+        }
+        return cont;
+    }
+    
+    public int contarMenCinco(int [] menCinco ){
+        int cont=0;
+        for (int i = 0; i < menCinco.length; i++) {
+            if (menCinco[i]<=5) {
+                cont++;
+            }
+        }
+        return cont;
+    }
 }
