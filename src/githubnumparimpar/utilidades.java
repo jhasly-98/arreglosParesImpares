@@ -27,7 +27,7 @@ public class utilidades {
     public int contarMayDiez(int [] mayDiez){
         int cont=0;
         for (int i = 0; i < mayDiez.length; i++) {
-            if (mayDiez[i]>=10) {
+            if (mayDiez[i]>10) {
                 cont++;
             }
         }
@@ -37,7 +37,7 @@ public class utilidades {
     public int contarMenCinco(int [] menCinco ){
         int cont=0;
         for (int i = 0; i < menCinco.length; i++) {
-            if (menCinco[i]<=5) {
+            if (menCinco[i]<5) {
                 cont++;
             }
         }
