@@ -36,9 +36,17 @@ public class GitHubNumParImpar {
                 continue;
             }
             if (dato % 2 ==0) {
+                if (contPar == 5) {
+                    System.out.println("YA TIENE 5 NUMEROS PARES");
+                    continue;
+                }
                 util.pares(pares, contPar, dato);
                 contPar++;
             }else{
+                if (contImpar == 5) {
+                    System.out.println("YA TIENE 5 NUMEROS IMPARES");
+                    continue;
+                }
                 util.impares(impares, contImpar, dato);
                 contImpar++;
                         
