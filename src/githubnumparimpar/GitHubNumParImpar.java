@@ -49,6 +49,7 @@ public class GitHubNumParImpar {
         System.out.println("Valores menores a 5 en impares son: "+util.contarMenCinco(impares));
         System.out.println("HOLA AQUI MODIFICO MARIA ESTHELA");
 //>>>>>>> 36d500d8ddba30d013e06485b323a10fb4cb9945
+//rama patrick
     }
     
 }
