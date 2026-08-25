@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class GitHubNumParImpar {
     public static void main(String[] args) {
         //modificado por Rodriguez Patrick
-        utilidades util =new utilidades();
+        // TODO code application logic here
+        System.out.println("HOLA ATTE ROBERTOOOOOOO");
         int [] pares=new int [5];
         int [] impares=new int [5];
         int dato=0;
@@ -25,25 +26,17 @@ public class GitHubNumParImpar {
                     System.out.println("YA TIENE 5 NUMEROS PARES");
                     continue;
                 }
-                util.pares(pares, contPar, dato);
                 contPar++;
             }else{
                 if (contImpar == 5) {
                     System.out.println("YA TIENE 5 NUMEROS IMPARES");
                     continue;
                 }
-                util.impares(impares, contImpar, dato);
                 contImpar++;
                         
             }
             cont++;
         }
-        util.imprimir(pares);
-        util.imprimir(impares);
-        System.out.println("Valores mayores a 10 en pares son: "+util.contarMayDiez(pares));
-        System.out.println("Valores mayores a 10 en impares son: "+util.contarMayDiez(impares));
-        System.out.println("Valores menores a 5 en pares son: "+util.contarMenCinco(pares));
-        System.out.println("Valores menores a 5 en impares son: "+util.contarMenCinco(impares));
         System.out.println("Prueba");
     }
     
