@@ -5,6 +5,7 @@ public class GitHubNumParImpar {
         //modificado por Rodriguez Patrick
         // TODO code application logic here
         System.out.println("HOLA ATTE ROBERTOOOOOOO");
+        utilidades util=new utilidades();
         int [] pares=new int [5];
         int [] impares=new int [5];
         int dato=0;
@@ -37,7 +38,17 @@ public class GitHubNumParImpar {
             }
             cont++;
         }
+//<<<<<<< HEAD
         System.out.println("Prueba");
+//=======
+        util.imprimir(pares);
+ util.imprimir(impares);
+        System.out.println("Valores mayores a 10 en pares son: "+util.contarMayDiez(pares));
+        System.out.println("Valores mayores a 10 en impares son: "+util.contarMayDiez(impares));
+        System.out.println("Valores menores a 5 en pares son: "+util.contarMenCinco(pares));
+        System.out.println("Valores menores a 5 en impares son: "+util.contarMenCinco(impares));
+        System.out.println("HOLA AQUI MODIFICO MARIA ESTHELA");
+//>>>>>>> 36d500d8ddba30d013e06485b323a10fb4cb9945
     }
     
 }
